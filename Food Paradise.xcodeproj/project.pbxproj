@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9082B28BE02C58A1E00BE9E8 /* Pods_Food_Paradise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBD3A845D958E53CF21DFDA /* Pods_Food_Paradise.framework */; };
+		A800457D298EEDD400384450 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A800457C298EEDD400384450 /* Kingfisher */; };
+		A8004580298EFFAB00384450 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A800457F298EFFAB00384450 /* SnapKit */; };
+		A83CFC2B298E666C0000CD91 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A83CFC2A298E666C0000CD91 /* FirebaseAuth */; };
+		A83CFC2D298E666C0000CD91 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A83CFC2C298E666C0000CD91 /* FirebaseDatabase */; };
+		A83CFC2F298E666C0000CD91 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A83CFC2E298E666C0000CD91 /* FirebaseFirestore */; };
+		A842D310298D5DCA003BF612 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D30F298D5DCA003BF612 /* ForgotPasswordController.swift */; };
+		A842D312298D5E09003BF612 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D311298D5E09003BF612 /* LoginController.swift */; };
+		A842D314298D5E65003BF612 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D313298D5E65003BF612 /* RegisterController.swift */; };
+		A842D316298D5EAF003BF612 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D315298D5EAF003BF612 /* HomeController.swift */; };
+		A842D319298D61E5003BF612 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D318298D61E5003BF612 /* AuthHeaderView.swift */; };
+		A842D31B298D7020003BF612 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D31A298D7020003BF612 /* CustomTextField.swift */; };
+		A842D31D298D744F003BF612 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D31C298D744F003BF612 /* CustomButton.swift */; };
+		A842D31F298D858A003BF612 /* WebViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D31E298D858A003BF612 /* WebViewerController.swift */; };
+		A842D322298DA2AB003BF612 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842D321298DA2AB003BF612 /* AlertManager.swift */; };
+		A842D324298DA9FD003BF612 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A842D323298DA9FD003BF612 /* GoogleService-Info.plist */; };
+		A846E916298E84090037114C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846E915298E84090037114C /* AuthService.swift */; };
+		A846E919298E8AD00037114C /* RegisterUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846E918298E8AD00037114C /* RegisterUserRequest.swift */; };
+		A847F545298EC35B00931824 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A847F544298EC35A00931824 /* Validator.swift */; };
+		A847F547298ECE0200931824 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A847F546298ECE0200931824 /* User.swift */; };
+		A8832859298E973600A5D00C /* LoginUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8832858298E973600A5D00C /* LoginUserRequest.swift */; };
+		A8D30181298CBD0400B8FFC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D30180298CBD0400B8FFC3 /* AppDelegate.swift */; };
+		A8D30183298CBD0400B8FFC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D30182298CBD0400B8FFC3 /* SceneDelegate.swift */; };
+		A8D3018A298CBD0C00B8FFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D30189298CBD0C00B8FFC3 /* Assets.xcassets */; };
+		A8D3018D298CBD0C00B8FFC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D3018B298CBD0C00B8FFC3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8D30194298CBD0E00B8FFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D30175298CBD0200B8FFC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D3017C298CBD0200B8FFC3;
+			remoteInfo = "Food Paradise";
+		};
+		A8D3019E298CBD0E00B8FFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D30175298CBD0200B8FFC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D3017C298CBD0200B8FFC3;
+			remoteInfo = "Food Paradise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72FB06CE899FB5CCD62FC758 /* Pods-Food Paradise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Paradise.release.xcconfig"; path = "Target Support Files/Pods-Food Paradise/Pods-Food Paradise.release.xcconfig"; sourceTree = "<group>"; };
+		8634734CB8AF5EA40E6E660B /* Pods-Food Paradise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Paradise.debug.xcconfig"; path = "Target Support Files/Pods-Food Paradise/Pods-Food Paradise.debug.xcconfig"; sourceTree = "<group>"; };
+		A842D30F298D5DCA003BF612 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		A842D311298D5E09003BF612 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A842D313298D5E65003BF612 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		A842D315298D5EAF003BF612 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A842D318298D61E5003BF612 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		A842D31A298D7020003BF612 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A842D31C298D744F003BF612 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A842D31E298D858A003BF612 /* WebViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewerController.swift; sourceTree = "<group>"; };
+		A842D321298DA2AB003BF612 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		A842D323298DA9FD003BF612 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A846E915298E84090037114C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		A846E918298E8AD00037114C /* RegisterUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserRequest.swift; sourceTree = "<group>"; };
+		A847F544298EC35A00931824 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		A847F546298ECE0200931824 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8832858298E973600A5D00C /* LoginUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserRequest.swift; sourceTree = "<group>"; };
+		A8D3017D298CBD0300B8FFC3 /* Food Paradise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Paradise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D30180298CBD0400B8FFC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8D30182298CBD0400B8FFC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8D30189298CBD0C00B8FFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8D3018C298CBD0C00B8FFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8D3018E298CBD0C00B8FFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D30193298CBD0E00B8FFC3 /* Food ParadiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food ParadiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D3019D298CBD0E00B8FFC3 /* Food ParadiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food ParadiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBD3A845D958E53CF21DFDA /* Pods_Food_Paradise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Paradise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D3017A298CBD0200B8FFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83CFC2D298E666C0000CD91 /* FirebaseDatabase in Frameworks */,
+				A83CFC2F298E666C0000CD91 /* FirebaseFirestore in Frameworks */,
+				9082B28BE02C58A1E00BE9E8 /* Pods_Food_Paradise.framework in Frameworks */,
+				A8004580298EFFAB00384450 /* SnapKit in Frameworks */,
+				A83CFC2B298E666C0000CD91 /* FirebaseAuth in Frameworks */,
+				A800457D298EEDD400384450 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D30190298CBD0E00B8FFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D3019A298CBD0E00B8FFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070A33F4CFB7375D54C8044B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8634734CB8AF5EA40E6E660B /* Pods-Food Paradise.debug.xcconfig */,
+				72FB06CE899FB5CCD62FC758 /* Pods-Food Paradise.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A842D30E298D5ADF003BF612 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A8D30180298CBD0400B8FFC3 /* AppDelegate.swift */,
+				A8D30182298CBD0400B8FFC3 /* SceneDelegate.swift */,
+				A8D30189298CBD0C00B8FFC3 /* Assets.xcassets */,
+				A8D3018B298CBD0C00B8FFC3 /* LaunchScreen.storyboard */,
+				A842D323298DA9FD003BF612 /* GoogleService-Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		A842D317298D5F2D003BF612 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A842D318298D61E5003BF612 /* AuthHeaderView.swift */,
+				A842D31A298D7020003BF612 /* CustomTextField.swift */,
+				A842D31C298D744F003BF612 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A842D320298DA1A9003BF612 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A842D315298D5EAF003BF612 /* HomeController.swift */,
+				A842D311298D5E09003BF612 /* LoginController.swift */,
+				A842D313298D5E65003BF612 /* RegisterController.swift */,
+				A842D30F298D5DCA003BF612 /* ForgotPasswordController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A846E917298E89D30037114C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A846E918298E8AD00037114C /* RegisterUserRequest.swift */,
+				A8832858298E973600A5D00C /* LoginUserRequest.swift */,
+				A847F546298ECE0200931824 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8D30174298CBD0200B8FFC3 = {
+			isa = PBXGroup;
+			children = (
+				A8D3017F298CBD0300B8FFC3 /* Food Paradise */,
+				A8D3017E298CBD0300B8FFC3 /* Products */,
+				B7289F91C86C9209056F0D72 /* Frameworks */,
+				070A33F4CFB7375D54C8044B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D3017E298CBD0300B8FFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3017D298CBD0300B8FFC3 /* Food Paradise.app */,
+				A8D30193298CBD0E00B8FFC3 /* Food ParadiseTests.xctest */,
+				A8D3019D298CBD0E00B8FFC3 /* Food ParadiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D3017F298CBD0300B8FFC3 /* Food Paradise */ = {
+			isa = PBXGroup;
+			children = (
+				A846E915298E84090037114C /* AuthService.swift */,
+				A842D321298DA2AB003BF612 /* AlertManager.swift */,
+				A847F544298EC35A00931824 /* Validator.swift */,
+				A846E917298E89D30037114C /* Models */,
+				A842D320298DA1A9003BF612 /* Controllers */,
+				A842D317298D5F2D003BF612 /* Views */,
+				A842D30E298D5ADF003BF612 /* Supporting */,
+				A8D3018E298CBD0C00B8FFC3 /* Info.plist */,
+				A842D31E298D858A003BF612 /* WebViewerController.swift */,
+			);
+			path = "Food Paradise";
+			sourceTree = "<group>";
+		};
+		B7289F91C86C9209056F0D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEBD3A845D958E53CF21DFDA /* Pods_Food_Paradise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D3017C298CBD0200B8FFC3 /* Food Paradise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D301A7298CBD0E00B8FFC3 /* Build configuration list for PBXNativeTarget "Food Paradise" */;
+			buildPhases = (
+				171530EA94F392917B4C0B63 /* [CP] Check Pods Manifest.lock */,
+				A8D30179298CBD0200B8FFC3 /* Sources */,
+				A8D3017A298CBD0200B8FFC3 /* Frameworks */,
+				A8D3017B298CBD0200B8FFC3 /* Resources */,
+				43AB3020DB02244B24F68E23 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Paradise";
+			packageProductDependencies = (
+				A83CFC2A298E666C0000CD91 /* FirebaseAuth */,
+				A83CFC2C298E666C0000CD91 /* FirebaseDatabase */,
+				A83CFC2E298E666C0000CD91 /* FirebaseFirestore */,
+				A800457C298EEDD400384450 /* Kingfisher */,
+				A800457F298EFFAB00384450 /* SnapKit */,
+			);
+			productName = "Food Paradise";
+			productReference = A8D3017D298CBD0300B8FFC3 /* Food Paradise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8D30192298CBD0E00B8FFC3 /* Food ParadiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D301AA298CBD0E00B8FFC3 /* Build configuration list for PBXNativeTarget "Food ParadiseTests" */;
+			buildPhases = (
+				A8D3018F298CBD0E00B8FFC3 /* Sources */,
+				A8D30190298CBD0E00B8FFC3 /* Frameworks */,
+				A8D30191298CBD0E00B8FFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D30195298CBD0E00B8FFC3 /* PBXTargetDependency */,
+			);
+			name = "Food ParadiseTests";
+			productName = "Food ParadiseTests";
+			productReference = A8D30193298CBD0E00B8FFC3 /* Food ParadiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8D3019C298CBD0E00B8FFC3 /* Food ParadiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D301AD298CBD0E00B8FFC3 /* Build configuration list for PBXNativeTarget "Food ParadiseUITests" */;
+			buildPhases = (
+				A8D30199298CBD0E00B8FFC3 /* Sources */,
+				A8D3019A298CBD0E00B8FFC3 /* Frameworks */,
+				A8D3019B298CBD0E00B8FFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D3019F298CBD0E00B8FFC3 /* PBXTargetDependency */,
+			);
+			name = "Food ParadiseUITests";
+			productName = "Food ParadiseUITests";
+			productReference = A8D3019D298CBD0E00B8FFC3 /* Food ParadiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D30175298CBD0200B8FFC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A8D3017C298CBD0200B8FFC3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A8D30192298CBD0E00B8FFC3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A8D3017C298CBD0200B8FFC3;
+					};
+					A8D3019C298CBD0E00B8FFC3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A8D3017C298CBD0200B8FFC3;
+					};
+				};
+			};
+			buildConfigurationList = A8D30178298CBD0200B8FFC3 /* Build configuration list for PBXProject "Food Paradise" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D30174298CBD0200B8FFC3;
+			packageReferences = (
+				A83CFC29298E666B0000CD91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A800457B298EEDD400384450 /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
+				A800457E298EFFAA00384450 /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+			);
+			productRefGroup = A8D3017E298CBD0300B8FFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D3017C298CBD0200B8FFC3 /* Food Paradise */,
+				A8D30192298CBD0E00B8FFC3 /* Food ParadiseTests */,
+				A8D3019C298CBD0E00B8FFC3 /* Food ParadiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D3017B298CBD0200B8FFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D3018D298CBD0C00B8FFC3 /* LaunchScreen.storyboard in Resources */,
+				A8D3018A298CBD0C00B8FFC3 /* Assets.xcassets in Resources */,
+				A842D324298DA9FD003BF612 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D30191298CBD0E00B8FFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D3019B298CBD0E00B8FFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171530EA94F392917B4C0B63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Paradise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43AB3020DB02244B24F68E23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Paradise/Pods-Food Paradise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Paradise/Pods-Food Paradise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Paradise/Pods-Food Paradise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D30179298CBD0200B8FFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A842D310298D5DCA003BF612 /* ForgotPasswordController.swift in Sources */,
+				A842D322298DA2AB003BF612 /* AlertManager.swift in Sources */,
+				A842D316298D5EAF003BF612 /* HomeController.swift in Sources */,
+				A846E916298E84090037114C /* AuthService.swift in Sources */,
+				A847F547298ECE0200931824 /* User.swift in Sources */,
+				A8832859298E973600A5D00C /* LoginUserRequest.swift in Sources */,
+				A842D31D298D744F003BF612 /* CustomButton.swift in Sources */,
+				A842D314298D5E65003BF612 /* RegisterController.swift in Sources */,
+				A847F545298EC35B00931824 /* Validator.swift in Sources */,
+				A8D30181298CBD0400B8FFC3 /* AppDelegate.swift in Sources */,
+				A842D31B298D7020003BF612 /* CustomTextField.swift in Sources */,
+				A846E919298E8AD00037114C /* RegisterUserRequest.swift in Sources */,
+				A8D30183298CBD0400B8FFC3 /* SceneDelegate.swift in Sources */,
+				A842D312298D5E09003BF612 /* LoginController.swift in Sources */,
+				A842D31F298D858A003BF612 /* WebViewerController.swift in Sources */,
+				A842D319298D61E5003BF612 /* AuthHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D3018F298CBD0E00B8FFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D30199298CBD0E00B8FFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8D30195298CBD0E00B8FFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D3017C298CBD0200B8FFC3 /* Food Paradise */;
+			targetProxy = A8D30194298CBD0E00B8FFC3 /* PBXContainerItemProxy */;
+		};
+		A8D3019F298CBD0E00B8FFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D3017C298CBD0200B8FFC3 /* Food Paradise */;
+			targetProxy = A8D3019E298CBD0E00B8FFC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8D3018B298CBD0C00B8FFC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D3018C298CBD0C00B8FFC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D301A5298CBD0E00B8FFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8D301A6298CBD0E00B8FFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D301A8298CBD0E00B8FFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8634734CB8AF5EA40E6E660B /* Pods-Food Paradise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Food Paradise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.Food-Paradise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8D301A9298CBD0E00B8FFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FB06CE899FB5CCD62FC758 /* Pods-Food Paradise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Food Paradise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.Food-Paradise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8D301AB298CBD0E00B8FFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.Food-ParadiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Paradise.app/Food Paradise";
+			};
+			name = Debug;
+		};
+		A8D301AC298CBD0E00B8FFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.Food-ParadiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Paradise.app/Food Paradise";
+			};
+			name = Release;
+		};
+		A8D301AE298CBD0E00B8FFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.Food-ParadiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food Paradise";
+			};
+			name = Debug;
+		};
+		A8D301AF298CBD0E00B8FFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.Food-ParadiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food Paradise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D30178298CBD0200B8FFC3 /* Build configuration list for PBXProject "Food Paradise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D301A5298CBD0E00B8FFC3 /* Debug */,
+				A8D301A6298CBD0E00B8FFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D301A7298CBD0E00B8FFC3 /* Build configuration list for PBXNativeTarget "Food Paradise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D301A8298CBD0E00B8FFC3 /* Debug */,
+				A8D301A9298CBD0E00B8FFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D301AA298CBD0E00B8FFC3 /* Build configuration list for PBXNativeTarget "Food ParadiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D301AB298CBD0E00B8FFC3 /* Debug */,
+				A8D301AC298CBD0E00B8FFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D301AD298CBD0E00B8FFC3 /* Build configuration list for PBXNativeTarget "Food ParadiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D301AE298CBD0E00B8FFC3 /* Debug */,
+				A8D301AF298CBD0E00B8FFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A800457B298EEDD400384450 /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		A800457E298EFFAA00384450 /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		A83CFC29298E666B0000CD91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A800457C298EEDD400384450 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A800457B298EEDD400384450 /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
+			productName = Kingfisher;
+		};
+		A800457F298EFFAB00384450 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A800457E298EFFAA00384450 /* XCRemoteSwiftPackageReference "SnapKit.git" */;
+			productName = SnapKit;
+		};
+		A83CFC2A298E666C0000CD91 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A83CFC29298E666B0000CD91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A83CFC2C298E666C0000CD91 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A83CFC29298E666B0000CD91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A83CFC2E298E666C0000CD91 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A83CFC29298E666B0000CD91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A8D30175298CBD0200B8FFC3 /* Project object */;
+}
